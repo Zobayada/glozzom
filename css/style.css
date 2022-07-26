@@ -1,0 +1,127 @@
+body{
+  color: #fff;
+}
+
+.navbar{
+  background: #000;
+}
+.nav-item{
+    padding-left: 1em;
+  }
+.nav-link{
+  text-transform: uppercase;
+}
+.carousel-item{
+  height: 450px;
+}
+.carousel-img-1{
+  background-image: url('../img/img1.jpg');
+  background-size: cover;
+}
+.carousel-img-2{
+  background-image: url('../img/img2.jpg');
+  background-size: cover;
+}
+.carousel-img-3{
+  background-image: url('../img/img3.jpg');
+  background-size: cover;
+}
+#homeicon .fa{
+  font-size: 50px;
+}
+#getstarted{
+  background-image: url('../img/img4.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+#getstarted .dark-overlay{
+  background-color:rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#home-video{
+  background-image: url('../img/img6.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  position: relative;
+  background-repeat: no-repeat;
+  min-height: 250px;
+}
+#home-video .dark-overlay{
+  background-color:rgba(0,0,0,0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+}
+#home-video .fa{
+  font-size: 50px;
+}
+#gallery img{
+  min-height: 200px;
+}
+#Copyright{
+  background: #000;
+}
+#page-header{
+  background-image: url('../img/img7.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+
+#about-info img{
+  width: 350px;
+  height: 350px;
+}
+#icon-boxes .fa{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+#testimonial .slick-prev::before{
+  color: #000;
+}
+#testimonial .slick-next::before{
+  color: #000;
+}
+#Service-page-header{
+  background-image: url('../img/img9.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+#blog-page-header{
+  background-image: url('../img/img10.jpg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+#contact-page-header{
+  background-image: url('../img/image1.jpeg');
+  background-size: cover;
+  height: 200px;
+  background-attachment: fixed;
+}
+
+
+
+@media (max-width:767px) {
+  .nav-item{
+      padding-left: 0 !important;
+    }
+  #getstarted{
+    min-height: 300px;
+  }
+}
+@media (max-width: 480px) {
+  #getstarted{
+    min-height: 400px;
+  }
+}
