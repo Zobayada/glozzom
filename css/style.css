@@ -4,6 +4,7 @@ body{
 
 .navbar{
   background: #000;
+  height: 100px;
 }
 .nav-item{
     padding-left: 1em;
@@ -12,18 +13,18 @@ body{
   text-transform: uppercase;
 }
 .carousel-item{
-  height: 450px;
+  height: 620px;
 }
 .carousel-img-1{
-  background-image: url('../img/img1.jpg');
+  background-image: url('../img/1.jpg');
   background-size: cover;
 }
 .carousel-img-2{
-  background-image: url('../img/img2.jpg');
+  background-image: url('../img/2.jpg');
   background-size: cover;
 }
 .carousel-img-3{
-  background-image: url('../img/img3.jpg');
+  background-image: url('../img/3.jpg');
   background-size: cover;
 }
 #homeicon .fa{
@@ -35,7 +36,7 @@ body{
   background-attachment: fixed;
   position: relative;
   background-repeat: no-repeat;
-  min-height: 250px;
+  min-height: 300px;
 }
 #getstarted .dark-overlay{
   background-color:rgba(0,0,0,0.7);
