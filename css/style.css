@@ -63,7 +63,7 @@ body{
   height: 100%;
 }
 #home-video .fa{
-  font-size: 50px;
+  font-size: 68px;
 }
 #gallery img{
   min-height: 200px;
@@ -125,4 +125,8 @@ body{
   #getstarted{
     min-height: 400px;
   }
+}
+.navbar-nav{
+    background-color: #343a40 !important;
+    padding: 5px 10px !important;
 }
